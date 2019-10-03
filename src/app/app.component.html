@@ -94,8 +94,25 @@
             </tr>
 
         </tbody>
-        <br><br>
-        <h4>Youtube</h4>
+
+
+        <h4>Slice</h4>
+        <ul>
+            <li *ngFor="let item of arreglo | slice:5:20"> {{ item }} </li>
+        </ul>
+
+        <h4>JSON</h4>
+        <pre>
+          {{ heroe | json }}
+        </pre>
+
+
+        <h4>Youtube <small>video</small></h4>
+        <hr>
+        <iframe width="560" height="315" [src]="video | domSeguro:'https://www.youtube.com/embed/' " frameborder="0" allowfullscreen></iframe>
+
+
+
 
 
     </table>

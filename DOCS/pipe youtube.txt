@@ -1,0 +1,10 @@
+Pipe DomSeguro Desde Youtube 
+
+Este pipe es para enviar informacion de un servicio externo a Angular y mostarla sin errores.
+Generamos un pipe con ngCli " ng g p pipes/DomSeguro"
+Importamos DomSanitizer del @angular/platform-browser
+Declaramos en nuestro constructor una variable de este tipo
+En nuestro metodo recibimos dos valores, el value y el url
+
+vscode: Para seleccionar la palabra en la que esta el cursos ctrl+D
+

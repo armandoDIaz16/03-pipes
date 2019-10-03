@@ -14,6 +14,20 @@ export class AppComponent {
   a = 0.234;
   salario = 1500.5;
 
+  heroe = {
+    nombre: "Logan",
+    clave: "Wolverine",
+    edad: 500,
+    direccion:{
+      calle: "Primera",
+      casa: "19"
+    }
+  };
+
+
+  video = "mOeSfOJrUIk";
+
+
   resultadoPromesa = new Promise (( resolve, reject ) => {
 setTimeout(() =>  resolve('llego la data'), 3500);
   });

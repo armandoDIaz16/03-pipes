@@ -13,12 +13,14 @@ import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 import { LOCALE_ID } from '@angular/core';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
+import { DomSeguroPipe } from './pipes/dom-seguro.pipe';
 registerLocaleData(localeEs);
 
 @NgModule({
   declarations: [
     AppComponent,
-    CapitalizadoPipe
+    CapitalizadoPipe,
+    DomSeguroPipe
   ],
   imports: [
     BrowserModule
