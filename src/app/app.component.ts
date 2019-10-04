@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  nombre = 'Armando';
+  nombre = 'Armando#4a1=si2!f';
   nombre2 = 'perro gato ususario zapato ñoño';
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   PI = Math.PI;
@@ -33,6 +33,8 @@ setTimeout(() =>  resolve('llego la data'), 3500);
   });
 
   fecha = new Date();
+
+  mostrar = false;
 
 
 }
